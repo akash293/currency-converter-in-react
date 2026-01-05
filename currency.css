@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(135deg, #0b57d0, #000);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container {
+    width: 380px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #0b57d0, #0845a3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+  }
+  
+  .field {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 14px;
+  }
+  
+  input, select {
+    width: 100%;
+    height: 42px;
+    margin-top: 6px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 16px;
+  }
+  
+  .currency-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .swap-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: #0b57d0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .exchange-btn {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(135deg, #0b57d0, #0845a3);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .exchange-btn:hover {
+    transform: translateY(-2px);
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .result span {
+    color: #0b57d0;
+  }
+  
